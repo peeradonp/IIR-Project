@@ -46,10 +46,30 @@ function App() {
                         <div className='text-[min(10vw,80px)] pointer-events-none'>IIR</div>
                         <div className='text-[min(3vw,30px)] flex-1'>
                             <div className='flex space-x-6 justify-end uppercase'>
-                                <div onClick={() => parallax.current.scrollTo(0)}>Home</div>
-                                <div onClick={() => parallax.current.scrollTo(1)}>About Us</div>
-                                <div onClick={() => parallax.current.scrollTo(3)}>Reel</div>
-                                <div onClick={() => parallax.current.scrollTo(4)}>Contact</div>
+                                <div
+                                    className='cursor-pointer'
+                                    onClick={() => parallax.current.scrollTo(0)}
+                                >
+                                    Home
+                                </div>
+                                <div
+                                    className='cursor-pointer'
+                                    onClick={() => parallax.current.scrollTo(1)}
+                                >
+                                    About Us
+                                </div>
+                                <div
+                                    className='cursor-pointer'
+                                    onClick={() => parallax.current.scrollTo(3)}
+                                >
+                                    Reel
+                                </div>
+                                <div
+                                    className='cursor-pointer'
+                                    onClick={() => parallax.current.scrollTo(4)}
+                                >
+                                    Contact
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -161,7 +181,7 @@ function App() {
                                 >
                                     <img
                                         alt='LinkedIn'
-                                        class='h-[2rem] w-auto'
+                                        className='h-[2rem] w-auto'
                                         src='https://floating-rock.com/storage/uploads/f33828d2-e8c0-4135-9d23-c1cd428b7d79/linkedin.svg'
                                     />
                                 </a>
@@ -176,7 +196,7 @@ function App() {
                                 >
                                     <img
                                         alt='Facebook'
-                                        class='h-[2rem] w-auto'
+                                        className='h-[2rem] w-auto'
                                         src='https://floating-rock.com/storage/uploads/914a0043-77c5-473a-9718-6265d2cc0adc/facebook.svg'
                                     />
                                 </a>
@@ -191,7 +211,7 @@ function App() {
                                 >
                                     <img
                                         alt='TikTok'
-                                        class='h-[2rem] w-auto'
+                                        className='h-[2rem] w-auto'
                                         src='https://floating-rock.com/storage/uploads/c1f9de6e-03a0-4743-9935-9c87a1a63290/tiktok.svg'
                                     />
                                 </a>
