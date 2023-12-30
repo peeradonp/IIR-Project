@@ -31,7 +31,7 @@ const VideoBackground = () => {
     }, [])
 
     return (
-        <div style={{ height: "100lvh" }}>
+        <div style={{ height: "135svh", marginTop: "-18svh" }}>
             <video ref={videoRef} className='video' loop muted playsInline>
                 <source src='1080p.mp4' type='video/mp4' />
                 Your browser does not support the video tag.
